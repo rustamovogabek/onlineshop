@@ -1,0 +1,76 @@
+header select {
+  border: none;
+  outline: none;
+}
+header .input-box {
+  border: 1px solid green;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+header .input-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+header .input-box button {
+  background-color: green;
+  border: none;
+  padding: 0 10px;
+  border-radius: 5px;
+  height: 30px;
+  display: block;
+  cursor: pointer;
+  color: #fff;
+}
+header .btn-user {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+header .btn-user a {
+  text-decoration: none;
+  color: #000;
+}
+header .btn-user span {
+  width: 18px;
+  height: 18px;
+  background-color: green;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+.famous {
+  border: 1px dashed #ddd;
+  padding: 10px;
+}
+
+footer {
+  background-color: #eef1f2;
+  padding: 50px 0;
+}
+footer h2 {
+  margin-bottom: 10px;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #818181;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

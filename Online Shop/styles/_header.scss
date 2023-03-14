@@ -1,0 +1,56 @@
+header {
+
+  select {
+    border: none;
+    outline: none;
+  }
+  .input-box {
+    border: 1px solid green;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    input {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+    }
+    button {
+      background-color: green;
+      border: none;
+      padding: 0 10px;
+      border-radius: 5px;
+      height: 30px;
+      display: block;
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+  .btn-user {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    a{
+      text-decoration: none;
+      color: #000;
+    }
+    span {
+      width: 18px;
+      height: 18px;
+      background-color: green;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 10px;
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: -10px;
+      right: 0;
+    }
+  }
+}
